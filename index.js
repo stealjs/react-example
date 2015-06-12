@@ -1,7 +1,9 @@
 import React from "react";
 
-function render(){
-  return <div>Hello world</div>
-}
+let HelloMessage = React.createClass({
+  render: function() {
+    return <div>Hello {this.props.name}!</div>;
+  }
+});
 
-React.render(render(), document.getElementById("app"));
+React.render(<HelloMessage name="World" />, document.getElementById("app"));
