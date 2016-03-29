@@ -17,5 +17,8 @@
     "babelOptions": {
       "blacklist": []
     }
+  },
+  "devDependencies": {
+    "steal-jsx": "0.0.0"
   }
 }
