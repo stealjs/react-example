@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.13.3",
-    "steal": "^0.10.5"
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "steal": "^0.15.3"
   },
   "system": {
     "transpiler": "babel",

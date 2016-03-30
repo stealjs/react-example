@@ -1,5 +1,6 @@
 import React from 'react';
-import World from './world.jsx!';
+import ReactDOM from 'react-dom';
+import World from './world.jsx';
 
 let HelloMessage = React.createClass({
   render() {
@@ -7,4 +8,4 @@ let HelloMessage = React.createClass({
   }
 });
 
-React.render(<HelloMessage name="Hello " />, document.getElementById('app'));
+ReactDOM.render(<HelloMessage name="Hello " />, document.getElementById('app'));
