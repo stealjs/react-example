@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import World from './world.jsx';
 
 let HelloMessage = React.createClass({
-  render: function() {
-    return <div>Hello {this.props.name}!</div>;
+  render() {
+    return <div>{this.props.name}<World />!</div>;
   }
 });
 
-React.render(<HelloMessage name="World" />, document.getElementById("app"));
+ReactDOM.render(<HelloMessage name="Hello " />, document.getElementById('app'));
