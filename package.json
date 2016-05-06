@@ -12,7 +12,7 @@
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "steal": "^0.16.4",
-    "steal-jsx": "0.0.0"
+    "steal-jsx": "^0.0.0"
   },
   "system": {
     "transpiler": "babel",
