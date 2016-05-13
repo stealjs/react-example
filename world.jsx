@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class World extends React.Component {
+class World extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,3 +19,7 @@ export default class World extends React.Component {
         return <div style={style} onClick={()=>this.clicked()}>{this.state.message}</div>;
     }
 }
+World.displayName = 'World';
+World.propTypes = {};
+
+export default World;
