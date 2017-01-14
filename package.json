@@ -9,15 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
-    "steal": "^0.16.4",
-    "steal-jsx": "^0.0.0"
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "steal": "^1.0.10",
+    "steal-jsx": "^0.0.2"
   },
-  "system": {
+  "steal": {
     "transpiler": "babel",
     "babelOptions": {
       "blacklist": []
-    }
+    },
+    "plugins": ["steal-jsx"]
   }
 }
