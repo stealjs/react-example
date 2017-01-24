@@ -1,7 +1,12 @@
 # steal-react-example
 
-Clone this repo and run `npm install` then simply open `index.html`.
+1. Clone this repo.
+2. Run `npm install`
+3. Start an `http-server` in the root directory.
+4. Open in your browser.
 
-Click World to see the onClick event fire.
+You can click on the “Welcome to…” title to see the `onClick` event fire.
 
-Noteworthy npm package is steal-jsx
+This example uses [steal-jsx](https://www.npmjs.com/package/steal-jsx).
+
+![Steal-React Example Screenshot](screenshot.png?raw=true "Simple Steal-React Example App")
