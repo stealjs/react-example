@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  margin: none;
+}
+img#logo {
+  margin-top: 5%;
+  width: 300px;
+}
