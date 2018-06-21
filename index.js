@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Title from './title.jsx';
 
+// Import styles
+import './styles.css';
+
 class HelloMessage extends React.Component {
   render() {
     return (
