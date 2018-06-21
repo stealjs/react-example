@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "steal-tools --main index"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^0.11.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "steal": "^1.0.10",
