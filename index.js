@@ -6,6 +6,7 @@ class HelloMessage extends React.Component {
   render() {
     return (
       <div>
+        <img src="logo.svg" id="logo"/>
         <Title greeting={this.props.greeting} />
         <ul>
           <li>
@@ -29,4 +30,7 @@ class HelloMessage extends React.Component {
   }
 };
 
-ReactDOM.render(<HelloMessage greeting="Welcome to your first StealJS and React app!" />, document.getElementById('app'));
+ReactDOM.render(
+  <HelloMessage greeting="Welcome to your first StealJS and React app!" />,
+  document.getElementById('app')
+);
