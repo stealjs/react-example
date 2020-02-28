@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.11.1",
-    "react": "^15.4.1",
+    "react": "^16.13.0",
     "react-dom": "^15.4.1",
     "steal": "^1.0.10",
     "steal-jsx": "^0.0.2"
